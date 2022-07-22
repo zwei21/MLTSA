@@ -164,6 +164,7 @@ def data_projector(type, n_features=100):
         projector.coeff = np.linspace(0, 2*np.pi, num=n_features) # Re-assign the coeff in grid-wise
     else:
         print("Unrecognized type of projector, select from rand or grid")
+    print("The output result shape is set as (n_samples, n_features, n_steps)")
     return projector
 
 def data_projection(obj, data):
