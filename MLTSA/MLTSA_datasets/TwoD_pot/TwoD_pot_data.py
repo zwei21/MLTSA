@@ -1,8 +1,8 @@
-import src
-from src.generateTraj import generateTraj
-from src.dataprocess import DataProcess
-from src.projection import Projector
-from src.utils import *
+from . import src
+from MLTSA.MLTSA_datasets.TwoD_pot.src.generateTraj import generateTraj
+from MLTSA.MLTSA_datasets.TwoD_pot.src.dataprocess import DataProcess
+from MLTSA.MLTSA_datasets.TwoD_pot.src.projection import Projector
+from MLTSA.MLTSA_datasets.TwoD_pot.src.utils import *
 #-- Code for potential generation --#
 def pot_generator(name):
     """pot_generator A getter function to get the object from potential generation class
